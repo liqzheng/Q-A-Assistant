@@ -1,0 +1,45 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.app-content {
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.upload-card,
+.documents-card,
+.qa-card,
+.answer-card {
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.answer-content p {
+  margin: 0 0 12px 0;
+}
+
+.answer-content p:last-child {
+  margin-bottom: 0;
+}
+
